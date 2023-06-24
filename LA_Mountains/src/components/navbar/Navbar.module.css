@@ -1,0 +1,69 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* background-color: rgb(196, 190, 190, .3); */
+}
+
+.imgContainer {
+    display: flex;
+    padding-left: 15rem;
+    gap: .3rem;
+}
+
+.img {
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+    border: 1px solid rgb(102, 95, 95);
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksContainer {
+    display: flex;
+    gap: 1rem;
+    padding-right: 15rem;
+    color: rgb(114, 114, 212);
+}
+
+.nameOne {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.nameTwo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.08rem;
+    color: rgb(114, 114, 212);
+    cursor: pointer;
+}
+
+.history {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.history:hover {
+    color: rgb(87, 85, 85);
+}
+
+.team {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.team:hover {
+    color: rgb(87, 85, 85);
+}

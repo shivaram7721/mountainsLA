@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(238, 233, 233, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.scheduleText {
+    color: rgb(130, 98, 219);
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Add any other desired text styles */
+}
+
+.scheduleTable {
+    /* color: white; */
+    width: 20vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(87, 85, 85);
+    padding: 1rem;
+}

@@ -1,0 +1,26 @@
+.img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.textOverlay {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Add any other desired text styles */
+}
